@@ -10,6 +10,7 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/7ff30387aa.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
@@ -53,34 +54,70 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn bg-[#FACC15] text-[#15803D] mr-5 rounded-[999px]">Plant a Tree</a>
+          <a class="btn bg-[#FACC15] text-[#15803D] mr-5 rounded-[999px]"
+            >Plant a Tree</a
+          >
         </div>
       </div>
     </section>
     <!-- banner -->
     <section>
-        <div class="banner h-[40vh] bg-[#CFF0DC] flex justify-between items-center">
-            <div>
-                <img class="object-cover h-[40vh]" src="images/hero-leaf1.png" alt="">
-            </div>
-            <div class=" flex flex-col gap-5 items-center">
-                <h1 class="text-3xl ">
-                    Plant a Tree
-                </h1>
-                <p class="text-[#1F2937] text-[10px]">
-                    Join our mission to plant 1 million trees
-                </p>
-                <button class="btn bg-[#FACC15] text-[#15803D] rounded-[999px] px-5">Get Involved</button>
-
-            </div>
-            <div>
-                <img class="object-cover h-[40vh] " src="images/hero-leaf2.png" alt="">
-            </div>
-
+      <div
+        class="banner h-[40vh] bg-[#CFF0DC] flex justify-between items-center"
+      >
+        <div>
+          <img
+            class="object-cover h-[40vh]"
+            src="images/hero-leaf1.png"
+            alt=""
+          />
         </div>
-
+        <div class="flex flex-col gap-5 items-center">
+          <h1 class="text-3xl">Plant a Tree</h1>
+          <p class="text-[#1F2937] text-[10px]">
+            Join our mission to plant 1 million trees
+          </p>
+          <button class="btn bg-[#FACC15] text-[#15803D] rounded-[999px] px-5">
+            Get Involved
+          </button>
+        </div>
+        <div>
+          <img
+            class="object-cover h-[40vh]"
+            src="images/hero-leaf2.png"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
     <!-- main -->
-     
+    <section class="bg-[#F0FDF4]">
+      <h2 class="text-center text-4xl mb-5">Choose Your Trees</h2>
+      <div class="flex gap-10">
+        <div>
+          <ul class="menu bg-base-200 rounded-box w-56">
+            <li class="menu-title">Title</li>
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <!-- cards -->
+        <div class="grid grid-cols-3 gap-10">
+        </div>
+
+        <div class="w-1/6 bg-white">
+            <h3 class="text-2xl text-center">Your Cart</h3>
+          <div class="bg-gray-300 flex justify-between items-center rounded-[5px] p-4">
+            
+            <div>
+              <p class="text-[12px]">Mango Tree</p>
+              <p class="text-[10px] opacity-80">৳500 x 1</p>
+            </div>
+            <p class="text-[12px]"><i class="fa-solid fa-xmark"></i></p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
